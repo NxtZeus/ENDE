@@ -14,5 +14,6 @@ while True:
     print("Resultado:", resultado)
     if resultado == respuesta:#Si el jugador 2 acierta nos dice que ha ganado y los intentos que ha necesitado.
         print(jugador2, "has ganado en ", intentos+1," intentos!")
+        print("hola")
         break
     intentos += 1
