@@ -21,6 +21,7 @@ def generar_respuesta(jugador1):
         else:
             if len(set(solucion)) != len(solucion):#
                 print("No puede haber letras repetidas.")
+                print("Hola")
             else:
                 os.system('cls' if os.name == 'nt' else 'clear')#Borra la pantalla después de que el jugador 1 introduzca las letras que adivinará el jugador 1
                 return solucion
